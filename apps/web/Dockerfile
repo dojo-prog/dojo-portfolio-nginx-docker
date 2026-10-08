@@ -13,7 +13,7 @@ COPY packages/shared ./packages/shared
 
 RUN npm run build -w @dojo-portfolio/web -- --mode docker
 
-FROM node:alpine 
+FROM nginx:alpine 
 
 COPY --from=build /app/apps/web/dist /usr/share/nginx/html
 
