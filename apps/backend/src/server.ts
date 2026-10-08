@@ -2,7 +2,6 @@ import http from "http";
 import { app } from "./app";
 import { ENV } from "./config/env";
 import { testDBConnection } from "./infrastructure/database/test";
-import "./infrastructure/database/init";
 import { shutdown } from "./infrastructure/shutdown/graceful-shutdown";
 
 const startServer = async () => {
