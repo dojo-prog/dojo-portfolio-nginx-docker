@@ -6,6 +6,8 @@ Dojo Portfolio is designed to separate the **public portfolio experience** from 
 
 The project uses a shared package for validation schemas and types so the frontend, admin dashboard, and backend can share the same API contracts.
 
+> **Project status:** This is the Dockerized version of my original Dojo-Portfilio project. It is currently configured with Nginx as a load balancer, routing traffic to one frontend server and two backend server instances.
+
 ---
 
 ## Table of Contents
